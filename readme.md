@@ -40,4 +40,6 @@ question_probability = 0.1
 moves_before_new_question_can_be_asked = 7
 grade_level = "5th"
 question_topic = "geography"
+width=41
+height=21
 ```
