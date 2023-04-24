@@ -23,6 +23,14 @@ OPENAI_API_KEY="blahblahblah"
 
 or use the environment variable `DYNACONF_OPENAI_API_KEY`
 
+## RUN
+
+```bash
+mazegame
+# or 
+python src/mazegame/game.py
+```
+
 ## settings
 
  You can configure the /src/mazegame/settings.toml file to change the maze parameters.

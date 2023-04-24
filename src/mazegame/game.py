@@ -3,9 +3,9 @@ import random
 import traceback
 # add logging
 import logging
-from config import settings
-from make_maze import create_maze
-from ai import EducationExpert
+from mazegame.config import settings
+from mazegame.make_maze import create_maze
+from mazegame.ai import EducationExpert
 
 logging.basicConfig(level=logging.DEBUG,  filename="mylog.log", filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
 

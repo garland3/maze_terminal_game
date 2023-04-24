@@ -1,6 +1,6 @@
 import os
 import random
-from config import settings
+from mazegame.config import settings
 os.environ['OPENAI_API_KEY'] = settings['OPENAI_API_KEY']
 from langchain.llms import OpenAI
 from langchain import PromptTemplate
